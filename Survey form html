@@ -1,0 +1,49 @@
+<h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age" required>
+
+      <select id="dropdown" name="dropdown">
+        <option value="" disabled selected>Select an option</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+
+      <label>Which of the following best describes your current role?</label>
+      <br>
+      <input type="radio" id="role1" name="role" value="student" required>
+      <label for="role1">Student</label>
+      <br>
+      <input type="radio" id="role2" name="role" value="employed" required>
+      <label for="role2">Employed</label>
+      <br>
+      <input type="radio" id="role3" name="role" value="unemployed" required>
+      <label for="role3">Unemployed</label>
+      <br>
+
+      <label>What languages do you know?</label>
+      <br>
+      <input type="checkbox" id="lang1" name="languages" value="english">
+      <label for="lang1">English</label>
+      <br>
+      <input type="checkbox" id="lang2" name="languages" value="french">
+      <label for="lang2">French</label>
+      <br>
+      <input type="checkbox" id="lang3" name="languages" value="spanish">
+      <label for="lang3">Spanish</label>
+      <br>
+
+      <label for="comments">Comments:</label>
+      <br>
+      <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  
